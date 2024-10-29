@@ -15,8 +15,8 @@ public class PreparedStatementTest {
 
     public static void main(String[] args) {
         String url = "jdbc:postgresql://localhost:5432/postgres";
-        String username = "postgres";
-        String password = "postgreSQL";
+        String username = "";
+        String password = "";
 //        String url = "jdbc:postgresql://localhost:5432/postgres";
 //        String username = "postgres";
 //        String password = "postgreSQL";

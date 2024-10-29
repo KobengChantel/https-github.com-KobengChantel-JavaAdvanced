@@ -11,8 +11,8 @@ public class SimpleJDBCTest {
 
     public static void main(String[] args) {
         String url = "jdbc:postgresql://localhost:5432/postgres";
-        String username = "postgres";
-        String password = "postgreSQL";
+        String username = "";
+        String password = "";
 // String query = "SELECT * FROM employee";
         String query = "SELECT * FROM public.\"Employee\"";
         try (Connection con = DriverManager.getConnection(url, username, password);
