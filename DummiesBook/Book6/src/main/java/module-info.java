@@ -17,6 +17,7 @@
 
 module sia.book6 {
         requires javafx.controls;
+        requires javafx.graphics;
         requires javafx.fxml;
         requires javafx.web;
         requires org.controlsfx.controls;
@@ -27,6 +28,7 @@ module sia.book6 {
         requires com.almasb.fxgl.all;
 
         // Allow JavaFX to access the classes within these packages
+        exports sia.book6 to javafx.graphics;
         exports sia.book6.chapter1 to javafx.graphics;
         exports sia.book6.chapter1_JavaFX to javafx.graphics;
         exports sia.book6.chapter2_HandlingEvents to javafx.graphics;
