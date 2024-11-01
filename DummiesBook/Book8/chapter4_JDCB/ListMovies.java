@@ -49,10 +49,10 @@ public class ListMovies
         Connection con = null;
         try
         {
-            Class.forName("com.mysql.jdbc.Driver");
-            String url = "jdbc:mysql://localhost/Movies";
-            String user = "root";
-            String pw = "PassWord";
+            Class.forName("org.postgresql.Driver");
+            String url = "jdbc:postgresql://localhost:5432/Movies"; // PostgreSQL JDBC URL
+            String user = ""; // Your PostgreSQL username
+            String pw = ""; // Your PostgreSQL password
             con = DriverManager.getConnection(url, user, pw);
         }
         catch (ClassNotFoundException e)

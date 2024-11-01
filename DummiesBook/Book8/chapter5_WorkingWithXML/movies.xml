@@ -1,7 +1,4 @@
-<!--//LISTING 5.1-->
-
-
-<?xml version='1.0'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Movies>
     <Movie year="1946">
         <Title>It's a Wonderful Life</Title>
