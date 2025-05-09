@@ -14,7 +14,7 @@ public class AtomicExample {
         System.out.println("New value: " + ai.getAndIncrement());
 
         //increment 5++ once more (7)
-        System.out.println(System.out.println("New value: " + ai.getAndIncrement());
+        System.out.println("New value: " + ai.getAndIncrement());
 
     }
 }
