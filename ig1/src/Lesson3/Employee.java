@@ -1,0 +1,39 @@
+package Lesson3;
+
+public class Employee {
+    private int empID;
+    private String name;
+    private String ssn;
+    private double salary;
+
+    public Employee(int empId, String name, String ssn, double salary) {
+        this.empID = empId;
+        this.name = name;
+        this.ssn = ssn;
+        this.salary = salary;
+    }
+    public String getName(){
+        return name;
+    }
+    public String getSsn(){
+        return ssn;
+    }
+
+    public double getSalary(){
+        return salary;
+    }
+
+    public int getEmpId(){
+        return empID;
+    }
+
+    public void changeName(String newName){
+        if (newName != null){
+            this.name = newName;
+        }
+    }
+    public void raiseSalary(double increase){
+        this.salary += increase;
+    }
+}
+
