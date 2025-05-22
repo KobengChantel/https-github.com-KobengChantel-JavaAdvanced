@@ -9,8 +9,8 @@ public class SimpleJDBCExample {
         // Create the "url"
         // assume database server is running on the localhost
         String url = "jdbc:derby://localhost:1527/EmployeeDB";
-        String username = "";
-        String password = "";
+        String username = "postgre";
+        String password = "postgre";
 
         // Create a simple query
         String query = "SELECT * FROM Employee";
