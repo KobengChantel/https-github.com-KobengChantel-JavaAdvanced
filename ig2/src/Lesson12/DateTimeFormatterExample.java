@@ -17,6 +17,6 @@ import java.time.format.FormatStyle;
 public class DateTimeFormatterExample {
     public static void main(String[] args) {
         ZonedDateTime now = ZonedDateTime.now();
-
+DateTimeFormatter formatter = DateTimeFormatter.ISO_DATE_TIME;
     }
 }
