@@ -9,7 +9,7 @@ public class AtomicCounterRunnable implements Runnable {
         super();
     }
 
-    public AtomicCounterRunnbble(int countSize, String threadName){
+    public AtomicCounterRunnable(int countSize, String threadName){
         this.countSize = countSize;
         this.threadName = threadName;
     }
