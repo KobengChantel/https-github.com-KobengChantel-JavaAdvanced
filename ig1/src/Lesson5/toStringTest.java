@@ -1,4 +1,4 @@
-package Lesson4;
+package Lesson5;
 
 public class toStringTest {
     public static void main(String[] args) {
@@ -6,4 +6,3 @@ public class toStringTest {
         System.out.println(e);
     }
 }
-
