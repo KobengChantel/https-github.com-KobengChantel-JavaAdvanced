@@ -37,32 +37,48 @@ import java.nio.file.*;
  * Example utility that works like the df(1M) program to print out disk space
  * information
  */
+
+//utility program mimics the UNIX df command by displaying total, used, and available disk space in kilobytes for all file systems or specified file paths.
+
 public class DiskUsage {
 
+    // Constant for kilobyte conversion (1 KB = 1024 bytes)
     static final long K = 1024;
 
+    /**
+     * Prints disk space info for a given FileStore in kilobytes.
+     */
     static void printFileStore(FileStore store) throws IOException {
-        //searches for and displays metadata
+        // Total space in KB
         long total = store.getTotalSpace() / K;
+        // Used space = total - unallocated
         long used = (store.getTotalSpace() - store.getUnallocatedSpace()) / K;
+        // Available space in KB
         long avail = store.getUsableSpace() / K;
 
+        // If store name is too long, print it separately
         String s = store.toString();
         if (s.length() > 20) {
             System.out.println(s);
             s = "";
         }
+
+        // Format and print the disk usage info
         System.out.format("%-20s %12d %12d %12d\n", s, total, used, avail);
     }
 
     public static void main(String[] args) throws IOException {
+        // Print table headers
         System.out.format("%-20s %12s %12s %12s\n", "Filesystem", "kbytes", "used", "avail");
+
         if (args.length == 0) {
+            // No arguments: list all file stores from default file system
             FileSystem fs = FileSystems.getDefault();
             for (FileStore store : fs.getFileStores()) {
                 printFileStore(store);
             }
         } else {
+            // If arguments are provided, list disk usage for each specified path
             for (String file : args) {
                 FileStore store = Files.getFileStore(Paths.get(file));
                 printFileStore(store);

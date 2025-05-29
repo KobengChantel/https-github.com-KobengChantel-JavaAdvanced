@@ -25,8 +25,8 @@ public class ByteChannelCopyTest {
 //            System.exit(-1);
 //        }
         // Open file channels for input and output files using FileInputStream and FileOutputStream
-        try (FileChannel fcIn = new FileInputStream("C:\\Users\\Jada\\YourJavaDirectory\\Input.txt").getChannel();
-             FileChannel fcOut = new FileOutputStream("C:\\Users\\Jada\\YourJavaDirectory\\ChannelOutput.txt").getChannel()) {
+        try (FileChannel fcIn = new FileInputStream("C:\\Users\\YourJavaDirectory\\Input.txt").getChannel();
+             FileChannel fcOut = new FileOutputStream("C:\\Users\\YourJavaDirectory\\ChannelOutput.txt").getChannel()) {
             // Print the size of the input file in bytes
             System.out.println("File size: " + fcIn.size());
             // Allocate a ByteBuffer with capacity equal to the input file size
