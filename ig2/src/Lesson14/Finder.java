@@ -7,7 +7,9 @@ import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 import static java.nio.file.FileVisitResult.CONTINUE;
 
-//class recursively visits files and directories, using a PathMatcher to identify and count those that match a specified pattern, printing each match as it's found.
+//class recursively visits files and directories,
+// using a PathMatcher to identify and count those that match
+// a specified pattern, printing each match as it's found.
 
 
 /**

@@ -8,7 +8,8 @@ import java.nio.file.Paths;
 import java.util.List;
 import static java.nio.file.StandardOpenOption.*;
 
-// program copies all lines from a source file to a target file, optionally allowing overwriting of the target file if specified with a command-line flag.
+// program copies all lines from a source file to a target file,
+// optionally allowing overwriting of the target file if specified with a command-line flag.
 
 public class CopyAllLinesTest {
 

@@ -11,7 +11,7 @@ public class FindFileTest {
 //            System.out.println("Usage: FindFileExample <start path> <search string>");
 //            System.exit(-1);
 //        }
-        Path root = Paths.get("C:\\Users\\Jada\\YourJavaDirectory");
+        Path root = Paths.get("C:\\YourDirectory\\us_counties_housing_export.txt");
         if (!Files.isDirectory(root)) {
             System.out.println("Is a directory!");
             System.exit(-1);

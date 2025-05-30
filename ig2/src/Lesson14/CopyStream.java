@@ -8,9 +8,12 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
 
-// program copies the content from a specified URI (local file or web resource) to a target file by opening an InputStream and writing it using the NIO Files.copy method, replacing the target file if it exists
+// program copies the content from a specified URI (local file or web resource) to a
+// target file by opening an InputStream and writing it using the NIO Files.copy method,
+// replacing the target file if it exists
 
-public class CopyStream {
+public class
+CopyStream {
 
     public static void main(String[] args) {
         // Check that there are at least two arguments (URL and output file)
@@ -21,12 +24,13 @@ public class CopyStream {
         }
 
         // Set the target output file path (hardcoded here)
-        Path path = Paths.get("C:\\Users\\Jada\\YourJavaDirectory\\Output.txt");
+        Path path = Paths.get("C:\\Users\\Chantel\\YourJavaDirectory\\Output.txt");
 
         // Create a URI for the source file (local file in this case)
-        URI u = URI.create("C:\\Users\\Jada\\YourJavaDirectory\\Input.txt");
+        URI u = URI.create("C:\\Users\\Chantel\\YourJavaDirectory\\Input.txt");
 
-        // Open an InputStream from the URI, then copy its contents to the target file, replacing if exists
+        // Open an InputStream from the URI, then copy its contents to the target file,
+        // replacing if exists
         try (InputStream in = u.toURL().openStream()) {
             Files.copy(in, path, REPLACE_EXISTING);
         } catch (IOException e) {
