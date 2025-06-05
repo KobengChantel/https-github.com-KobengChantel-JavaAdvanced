@@ -24,10 +24,10 @@ CopyStream {
         }
 
         // Set the target output file path (hardcoded here)
-        Path path = Paths.get("C:\\Users\\Chantel\\YourJavaDirectory\\Output.txt");
+        Path path = Paths.get("C:\\YourDirectory\\java\\Output.txt");
 
         // Create a URI for the source file (local file in this case)
-        URI u = URI.create("C:\\Users\\Chantel\\YourJavaDirectory\\Input.txt");
+        URI u = URI.create("C:\\YourDirectory\\java\\Input.txt");
 
         // Open an InputStream from the URI, then copy its contents to the target file,
         // replacing if exists
