@@ -1,29 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 package Lesson17;
 
 import java.time.LocalDate;
@@ -32,6 +6,8 @@ import java.util.List;
 import java.util.function.Consumer;
 
 /**
+ * This class models an Employee with multiple attributes and uses the Builder pattern for object creation.
+ * It supports comparison by surname, salary sorting, and flexible printing options.
  * @author MikeW
  */
 public class Employee implements Comparable<Employee>{
@@ -50,6 +26,7 @@ public class Employee implements Comparable<Employee>{
     private String state;
     private String code;
 
+    // Nested static Builder class for constructing Employee objects
     public static class Builder{
 
         private String givenName="";
@@ -67,6 +44,7 @@ public class Employee implements Comparable<Employee>{
         private String state = "";
         private String code = "";
 
+        // Each setter method returns the Builder for chaining
 
         public Builder givenName(String givenName){
             this.givenName = givenName;
@@ -138,15 +116,18 @@ public class Employee implements Comparable<Employee>{
             return this;
         }
 
+        // Builds the Employee instance using the accumulated values
         public Employee build(){
             return new Employee(this);
         }
     }
 
+    // Private no-arg constructor
     private Employee(){
         super();
     }
 
+    // Private constructor accepting Builder to set fields
     private Employee(Builder builder){
         givenName = builder.givenName;
         surName = builder.surName;
@@ -162,15 +143,16 @@ public class Employee implements Comparable<Employee>{
         city = builder.city;
         state = builder.state;
         code = builder.code;
-
     }
 
+    // Static method to compare two employees by salary
     public static int sortBySalary(Employee a, Employee b){
         Double s1 = new Double(a.getSalary());
         Double s2 = new Double(b.getSalary());
         return s1.compareTo(s2);
     }
 
+    // Getters and setter for surname
     public String getGivenName(){
         return givenName;
     }
@@ -231,13 +213,13 @@ public class Employee implements Comparable<Employee>{
         return code;
     }
 
+    // Implements Comparable to sort employees by surname alphabetically
     @Override
     public int compareTo(Employee e){
         return this.getSurName().compareTo(e.getSurName());
     }
 
-
-
+    // Prints full employee details
     public void print(){
         System.out.println(
                 "\nName: " + givenName + " " + surName + "\n" +
@@ -256,6 +238,7 @@ public class Employee implements Comparable<Employee>{
         );
     }
 
+    // Prints a brief summary of key employee info
     public void printSummary(){
         System.out.printf(
                 "Name: " + givenName + " " + surName +
@@ -266,11 +249,12 @@ public class Employee implements Comparable<Employee>{
         );
     }
 
+    // Accepts a lambda Consumer to customize printing or processing of employee
     public void printLambda(Consumer<Employee> cons){
         cons.accept(this);
     }
 
-
+    // Returns a string representation of the employee
     @Override
     public String toString(){
         return
@@ -290,6 +274,7 @@ public class Employee implements Comparable<Employee>{
 
     }
 
+    // Creates and returns a sample list of employees for testing/demo
     public static List<Employee> createShortList(){
         List<Employee> people = new ArrayList<>();
 
@@ -444,7 +429,6 @@ public class Employee implements Comparable<Employee>{
                         .code("222333")
                         .build()
         );
-
 
         return people;
     }

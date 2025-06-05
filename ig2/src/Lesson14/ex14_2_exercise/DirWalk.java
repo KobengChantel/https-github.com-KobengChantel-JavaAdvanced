@@ -7,31 +7,27 @@ import java.nio.file.Paths;
 import java.util.stream.Stream;
 
 /**
- *
- * @author oracle
+ * Demonstrates walking the directory tree recursively using Files.walk()
  */
 public class DirWalk {
   public static void main(String[] args) {
 
-    try(Stream<Path> files = Files.walk(Paths.get("."))){
-
+    // List all files and directories recursively
+    try (Stream<Path> files = Files.walk(Paths.get("."))) {
       System.out.println("\n=== Dir walk ===");
-      files.forEach(line -> System.out.println(line));
-
-    }catch (IOException e){
+      files.forEach(System.out::println);
+    } catch (IOException e) {
       System.out.println("Error: " + e.getMessage());
     }
 
-    try(Stream<Path> files = Files.walk(Paths.get("."))){
-
+    // List files and directories recursively that contain "build" in their path
+    try (Stream<Path> files = Files.walk(Paths.get("."))) {
       System.out.println("\n=== Dir build ===");
       files
               .filter(path -> path.toString().contains("build"))
-              .forEach(line -> System.out.println(line));
-
-    }catch (IOException e){
+              .forEach(System.out::println);
+    } catch (IOException e) {
       System.out.println("Error: " + e.getMessage());
     }
-
-  } 
+  }
 }

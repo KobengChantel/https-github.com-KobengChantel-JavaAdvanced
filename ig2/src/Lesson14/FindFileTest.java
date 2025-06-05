@@ -10,6 +10,7 @@ public class FindFileTest {
 //        if (args.length < 2) {
 //            System.out.println("Usage: FindFileExample <start path> <search string>");
 //            System.exit(-1);
+        //
 //        }
         Path root = Paths.get("C:\\YourDirectory\\us_counties_housing_export.txt");
         if (!Files.isDirectory(root)) {
