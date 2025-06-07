@@ -6,23 +6,27 @@ import java.nio.file.Paths;
 import java.util.stream.Stream;
 
 /**
- *
- * @author oracle
+ * This class demonstrates reading a file line-by-line using Java NIO's Files.lines()
+ * method with try-with-resources to automatically close the stream.
  */
 public class P02NioRead {
-    
+
     public static void main(String[] args) {
-     
-        try{ // Create Try with Resources here
-            
-            Stream<String> lines = Files.lines(Paths.get("C:\\Users\\Chantel\\YourJavaDirectory\\hamlet.txt"));
-            
+
+        // Path to the file
+        String filePath = "C:\\Users\\Chantel\\YourJavaDirectory\\hamlet.txt";
+
+        // Try-with-resources to automatically close the Stream<String> after use
+        try (Stream<String> lines = Files.lines(Paths.get(filePath))) {
+
             System.out.println("\n=== Entire File ===");
-            lines.forEach(line -> System.out.println(line)); 
-            
-        }catch (IOException e){
+
+            // Print each line of the file
+            lines.forEach(line -> System.out.println(line));
+
+        } catch (IOException e) {
+            // Handle exceptions like file not found or access issues
             System.out.println("Error: " + e.getMessage());
         }
-
-    } 
+    }
 }

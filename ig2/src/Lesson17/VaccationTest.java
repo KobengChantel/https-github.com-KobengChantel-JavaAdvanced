@@ -4,6 +4,10 @@ import java.time.LocalDate;
 import java.util.List;
 import static java.time.temporal.ChronoUnit.DAYS;
 
+/**
+ * program calculates and displays accrued vacation days for employees based on their roles over a period of time, and also prints bonus summaries for executives
+ */
+
 public class VaccationTest {
 
     public static void main(String[] args) {

@@ -8,7 +8,7 @@ public class SimpleJDBCExample {
     public static void main(String[] args) {
         // Create the "url"
         // assume database server is running on the localhost
-        String url = "jdbc:derby://localhost:1527/EmployeeDB";
+        String url = "jdbc:postgresql://localhost:5432/EmployeeM";
         String username = "postgre";
         String password = "postgre";
 

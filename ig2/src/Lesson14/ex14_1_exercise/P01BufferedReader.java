@@ -5,23 +5,28 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /**
- *
- * @author oracle
+ * This class demonstrates reading and printing the contents of a text file
+ * using BufferedReader and FileReader. Each line from the file is printed
+ * to the console.
  */
 public class P01BufferedReader {
-    
+
     public static void main(String[] args) {
-        
-        try{
-            BufferedReader bReader = 
-                new BufferedReader(new FileReader("C:\\Users\\Chantel\\YourJavaDirectory\\hamlet.txt"));
+
+        // Path to the input text file (update this if needed)
+        String filePath = "C:\\Users\\Chantel\\YourJavaDirectory\\hamlet.txt";
+
+        // Try-with-resources ensures BufferedReader is closed automatically
+        try (BufferedReader bReader = new BufferedReader(new FileReader(filePath))) {
+
             System.out.println("=== Entire File ===");
-            
-            bReader.lines()
-                   .forEach(lines -> System.out.println(lines));
-                        
-        }catch (IOException e){
+
+            // Read and print each line using a stream
+            bReader.lines().forEach(line -> System.out.println(line));
+
+        } catch (IOException e) {
+            // Print any I/O errors (e.g., file not found or unreadable)
             System.out.println("Error: " + e.getMessage());
         }
-    } 
+    }
 }
