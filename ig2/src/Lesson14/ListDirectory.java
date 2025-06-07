@@ -12,7 +12,7 @@ public class ListDirectory {
 //            System.exit(-1);
 //        }
 
-        Path dir = Paths.get("C:\\Users\\Chantel\\YourJavaDirectory");
+        Path dir = Paths.get("C:\\YourDirectory\\tl_2010_us_county10");
         String filter = "*";
         if (args.length == 2) {
             filter = args[1];
