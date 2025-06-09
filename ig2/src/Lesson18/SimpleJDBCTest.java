@@ -3,14 +3,15 @@ package Lesson18;
 import java.sql.*;
 import java.util.Date;
 
-// This program connects to a PostgreSQL database and retrieves all Employee records, printing their details to the console.
+// This program connects to a PostgreSQL database and retrieves all
+// Employee records, printing their details to the console.
 
 public class SimpleJDBCTest {
 
     public static void main(String[] args) {
         // Database connection details
-        String url = "jdbc:postgresql://localhost:5432/EmployeeM";
-        String username = "postgre";
+        String url = "jdbc:postgresql://localhost:5432/postgres";
+        String username = "postgres";
         String password = "postgre";
 
 

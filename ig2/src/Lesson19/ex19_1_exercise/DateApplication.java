@@ -10,7 +10,8 @@ import java.time.format.FormatStyle;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-// This application displays the current date and time in multiple localized formats and allows the user to switch between languages interactively.
+// This application displays the current date and time in multiple
+// localized formats and allows the user to switch between languages interactively.
 
 public class DateApplication {
     PrintWriter pw = new PrintWriter(System.out, true); // for output to console

@@ -3,7 +3,9 @@ package Lesson18.ex18_1_exercise;
 import java.sql.*;
 import java.util.Date;
 
-// This program connects to a PostgreSQL database, queries all records from the Employee table, and prints each employee's details to the console.
+// This program connects to a PostgreSQL database,
+// queries all records from the Employee table,
+// and prints each employee's details to the console.
 
 public class SimpleJDBCExample {
 

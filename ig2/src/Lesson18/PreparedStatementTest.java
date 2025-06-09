@@ -12,7 +12,7 @@ public class PreparedStatementTest {
     public static void main(String[] args) {
         // Database connection parameters
         String url = "jdbc:postgresql://localhost:5432/EmployeeM";
-        String username = "postgre";
+        String username = "postgres";
         String password = "postgre";
 
 

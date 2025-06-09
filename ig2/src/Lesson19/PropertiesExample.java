@@ -13,7 +13,8 @@ public class PropertiesExample {
 
         try {
             // Open the properties file as an input stream
-            FileInputStream fis = new FileInputStream("C:\\Bootcamp\\JAVA\\Java_Advanced\\java_work\\ig2\\src\\Lesson19\\ServerInfo.properties");
+            FileInputStream fis = new FileInputStream(
+                    "C:\\Bootcamp\\JAVA\\Java_Advanced\\java_work\\ig2\\src\\Lesson19\\ServerInfo.properties");
 
             // Load properties from the input stream into the Properties object
             myProps.load(fis);
