@@ -4,6 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
+// This program creates a simple GUI with a checkbox that prints its state ("on" or "off") to the console when toggled.
+
 public class CheckboxExample {
 
   private JCheckBox check;
@@ -33,4 +35,3 @@ public class CheckboxExample {
     System.out.println("Check box is " + onOrOff);
   }
 }
-   
