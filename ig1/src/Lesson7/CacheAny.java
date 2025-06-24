@@ -1,15 +1,17 @@
 package Lesson7;
 
-//allows for any type to be passed into class
-public class CacheAny<T>{
-      
-    private T t;
-  
-    public void add(T t){
+// A generic class that can store and retrieve an object of any specified type T.
+public class CacheAny<T> {
+
+    private T t; // Variable to hold an object of type T
+
+    // Stores the given object of type T in the cache
+    public void add(T t) {
         this.t = t;
     }
-  
-    public T get(){
+
+    // Retrieves the stored object of type T from the cache
+    public T get() {
         return this.t;
-    }  
+    }
 }
