@@ -6,6 +6,13 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * SalesTxn models a sales transaction including details about the buyer,
+ * product, payment, quantity, location, and date.
+ * It uses a Builder pattern for flexible object creation.
+ * It provides methods to get transaction info, calculate totals,
+ * and print summaries.
+ * The static createTxnList method generates a sample list of transactions.
+ *
  * @author MikeW
  */
 public class SalesTxn {
@@ -20,9 +27,9 @@ public class SalesTxn {
     private String city;
     private State state;
     private String code;
-    
-    public static class Builder{
-    
+
+    // Builder class for SalesTxn
+    public static class Builder {
         private long txnId = 0;
         private String salesPerson = "";
         private Buyer buyer;
@@ -34,429 +41,361 @@ public class SalesTxn {
         private String city = "";
         private State state;
         private String code = "";
-       
+
         public Builder txnId(long val){
             this.txnId = val;
             return this;
         }
-        
-        
-        public Builder salesPerson( String val){
+        public Builder salesPerson(String val){
             this.salesPerson = val;
             return this;
         }
-        
         public Builder buyer(Buyer val){
             this.buyer = val;
             return this;
         }
-                
         public Builder product(String val){
             this.product = val;
             return this;
         }
-
-        
-        public Builder paymentType( String val){
+        public Builder paymentType(String val){
             this.paymentType = val;
             return this;
         }
-
         public Builder unitPrice(double val){
             this.unitPrice = val;
             return this;
         }
-
         public Builder unitCount(double val){
             this.unitCount = val;
             return this;
         }
-        
         public Builder txnDate(LocalDate val){
             this.txnDate = val;
             return this;
-        }    
-
+        }
         public Builder city(String val){
-          city = val;
-          return this;
+            this.city = val;
+            return this;
         }
-
         public Builder state(State val){
-          state = val;
-          return this;
+            this.state = val;
+            return this;
         }
-
         public Builder code(String val){
-          code = val;
-          return this;
+            this.code = val;
+            return this;
         }
-
         public SalesTxn build(){
-          return new SalesTxn(this);
+            return new SalesTxn(this);
         }
-  }
-    
+    }
+
     private SalesTxn(){
         super();
     }
-    
-  private SalesTxn(Builder builder){
-    txnId = builder.txnId;
-    salesPerson = builder.salesPerson;
-    buyer = builder.buyer;
-    product = builder.product;
-    paymentType = builder.paymentType;
-    unitPrice = builder.unitPrice;
-    unitCount = builder.unitCount;
-    txnDate = builder.txnDate;
-    city = builder.city;
-    state = builder.state;
-    code = builder.code;
-    
-  }
-  
-  
-  public long getTxnId(){
-    return txnId;
-  }
-  
-  public String getSalesPerson(){
-    return salesPerson;
-  }
-  
-  public Buyer getBuyer(){
-    return buyer;
-  }
-  
-  public String getBuyerName(){
-    return buyer.getName();
-  }
-    
-  public String getProduct(){
-    return product;
-  }
-  
-  public String getPaymentType(){
-    return paymentType;
-  }
-  
-  public double getUnitPrice(){
-    return unitPrice;
-  }
-  
-  public double getUnitCount(){
-      return unitCount;
-  }
-  
-  public double getTaxRate(){
-      return TaxRate.byState(this.getState());
-  }
-  
-  public double getDiscountRate(){
-      return this.getBuyer().getBuyerClass().getRate();
-  }
-  
-  public LocalDate getTxnDate(){
-      return txnDate;
-  }
-    
-  public String getCity(){
-      return city;
-  }
-  
-  public State getState(){
-      return state;
-  }
-  
-  public String getCode(){
-      return code;
-  }
- 
-  public double getTransactionTotal(){
-      return this.unitCount * this.unitPrice;
-  }
- 
-  public static int sortByBuyer(SalesTxn a, SalesTxn b){
-      return a.getBuyerName().compareTo(b.getBuyerName());
-  }
-  
-  public String print(){
-      return
-        "Transaction id: " + txnId + "\n" +
-        "Sales person: " + salesPerson + "\n" +
-        "Buyer name: " + this.getBuyerName() + "\n" +
-        "Buyer class: " + this.getBuyer().getBuyerClass() + "\n" +
-        "Product: " + product + "\n" + 
-        "Payment type: " + paymentType + "\n" +
-        "Unit price: $" + unitPrice + "\n" +
-        "Unit count: " + unitCount + "\n" +
-        "Sales price: " + this.getTransactionTotal() + "\n" +
-        "Tax rate: " + this.getTaxRate() + "\n" +
-        "Discount rate: " + this.getDiscountRate() + "\n" +
-        "Transaction date: " + txnDate + "\n" +
-        "City: " + city + "\n" +
-        "State: " + state + "\n" +
-        "Code: " + code + "\n";
-  } 
 
+    private SalesTxn(Builder builder){
+        this.txnId = builder.txnId;
+        this.salesPerson = builder.salesPerson;
+        this.buyer = builder.buyer;
+        this.product = builder.product;
+        this.paymentType = builder.paymentType;
+        this.unitPrice = builder.unitPrice;
+        this.unitCount = builder.unitCount;
+        this.txnDate = builder.txnDate;
+        this.city = builder.city;
+        this.state = builder.state;
+        this.code = builder.code;
+    }
+
+    // Accessors for transaction fields
+    public long getTxnId(){ return txnId; }
+    public String getSalesPerson(){ return salesPerson; }
+    public Buyer getBuyer(){ return buyer; }
+    public String getBuyerName(){ return buyer.getName(); }
+    public String getProduct(){ return product; }
+    public String getPaymentType(){ return paymentType; }
+    public double getUnitPrice(){ return unitPrice; }
+    public double getUnitCount(){ return unitCount; }
+    public LocalDate getTxnDate(){ return txnDate; }
+    public String getCity(){ return city; }
+    public State getState(){ return state; }
+    public String getCode(){ return code; }
+
+    // Calculate total transaction amount (units * price)
+    public double getTransactionTotal(){
+        return this.unitCount * this.unitPrice;
+    }
+
+    // Get tax rate by state (calls external TaxRate class)
+    public double getTaxRate(){
+        return TaxRate.byState(this.getState());
+    }
+
+    // Get buyer discount rate based on buyer class
+    public double getDiscountRate(){
+        return this.getBuyer().getBuyerClass().getRate();
+    }
+
+    // Comparator to sort transactions by buyer name
+    public static int sortByBuyer(SalesTxn a, SalesTxn b){
+        return a.getBuyerName().compareTo(b.getBuyerName());
+    }
+
+    // Returns a detailed string representation of the transaction
+    public String print(){
+        return
+                "Transaction id: " + txnId + "\n" +
+                        "Sales person: " + salesPerson + "\n" +
+                        "Buyer name: " + this.getBuyerName() + "\n" +
+                        "Buyer class: " + this.getBuyer().getBuyerClass() + "\n" +
+                        "Product: " + product + "\n" +
+                        "Payment type: " + paymentType + "\n" +
+                        "Unit price: $" + unitPrice + "\n" +
+                        "Unit count: " + unitCount + "\n" +
+                        "Sales price: " + this.getTransactionTotal() + "\n" +
+                        "Tax rate: " + this.getTaxRate() + "\n" +
+                        "Discount rate: " + this.getDiscountRate() + "\n" +
+                        "Transaction date: " + txnDate + "\n" +
+                        "City: " + city + "\n" +
+                        "State: " + state + "\n" +
+                        "Code: " + code + "\n";
+    }
+
+    // Prints a summary of the transaction to the console
     public void printSummary(){
         System.out.println(
-        "ID: " + txnId + " - " +
-        "Seller: " + salesPerson + " - " +
-        "Buyer: " + this.getBuyerName() + " - " +
-        "Product: " + product + " - " + 
-        "ST: " + state + " - " + 
-        "Amt: " + this.getTransactionTotal() + " - " +
-        "Date: " + txnDate);      
+                "ID: " + txnId + " - " +
+                        "Seller: " + salesPerson + " - " +
+                        "Buyer: " + this.getBuyerName() + " - " +
+                        "Product: " + product + " - " +
+                        "ST: " + state + " - " +
+                        "Amt: " + this.getTransactionTotal() + " - " +
+                        "Date: " + txnDate
+        );
     }
 
+    // Returns a summary string of the transaction
     public String getSummaryStr(){
         return
-        "ID: " + txnId + " - " +
-        "Seller: " + salesPerson + " - " +
-        "Buyer: " + this.getBuyerName() + " - " +
-        "Product: " + product + " - " + 
-        "ST: " + state + " - " + 
-        "Amt: " + this.getTransactionTotal() + " - " +
-        "Date: " + txnDate;      
+                "ID: " + txnId + " - " +
+                        "Seller: " + salesPerson + " - " +
+                        "Buyer: " + this.getBuyerName() + " - " +
+                        "Product: " + product + " - " +
+                        "ST: " + state + " - " +
+                        "Amt: " + this.getTransactionTotal() + " - " +
+                        "Date: " + txnDate;
     }
 
+    @Override
+    public String toString(){
+        return "Transaction id: " + txnId +
+                " Sales person: " + salesPerson +
+                " Buyer name: " + this.getBuyerName() +
+                " Buyer class: " + this.getBuyer().getBuyerClass() +
+                " Product: " + product +
+                " Payment type: " + paymentType +
+                " Unit price: $" + unitPrice +
+                " Unit count: " + unitCount +
+                " Sales price: " + this.getTransactionTotal() +
+                " Tax rate: " + this.getTaxRate() +
+                " Discount rate: " + this.getDiscountRate() +
+                " Transaction date: " + txnDate +
+                " City: " + city +
+                " State: " + state +
+                " Code: " + code + "\n";
+    }
 
-  @Override
-  public String toString(){
-    return "Transaction id: " + txnId +
-        "Sales person: " + salesPerson +
-        "Buyer name: " + this.getBuyerName() + 
-        "Buyer class: " + this.getBuyer().getBuyerClass() +
-        "Product: " + product + 
-        "Payment type: " + paymentType +
-        "Unit price: $" + unitPrice +
-        "Unit count: " + unitCount +
-        "Sales price: " + this.getTransactionTotal() + 
-        "Tax rate: " + this.getTaxRate() +
-        "Discount rate: " + this.getDiscountRate() +
-        "Transaction date: " + txnDate +
-        "City: " + city + 
-        "State: " + state +
-        "Code: " + code + "\n";
-  } 
+    /**
+     * Creates and returns a sample list of SalesTxn objects with diverse buyers and details.
+     */
+    public static List<SalesTxn> createTxnList(){
+        List<SalesTxn> txnList = new ArrayList<>();
+        Map<String, Buyer> buyerMap = Buyer.getBuyerMap();
 
-  public static List<SalesTxn> createTxnList(){
-    List<SalesTxn> txnList = new ArrayList<>();
-    Map<String, Buyer> buyerMap = Buyer.getBuyerMap();
-    
-    txnList.add(
-      new Builder()
-            .txnId(11)
-            .salesPerson("Jane Doe")
-            .buyer(buyerMap.get("Acme"))
-            .product("Widgets")
-            .paymentType("Cash")
-            .unitPrice(20)
-            .unitCount(3000)
-            .txnDate(LocalDate.of(2013,1,25))
-            .city("San Jose")
-            .state(State.CA)
-            .code("95101")
-            .build() 
-    );
-    
-    
-    txnList.add(
-      new Builder()
-            .txnId(12)
-            .salesPerson("Jane Doe")
-            .buyer(buyerMap.get("Acme"))
-            .product("Widget Pro")
-            .paymentType("Cash")
-            .unitPrice(40)
-            .unitCount(10000)
-            .txnDate(LocalDate.of(2013,4,5))
-            .city("San Jose")
-            .state(State.CA)
-            .code("95101")
-            .build() 
-    );
-    
-    
-    txnList.add(
-      new Builder()
-            .txnId(13)
-            .salesPerson("Jane Doe")
-            .buyer(buyerMap.get("RadioHut"))
-            .product("Widget Pro")
-            .paymentType("Credit")
-            .unitPrice(40)
-            .unitCount(50000)
-            .txnDate(LocalDate.of(2013,10,3))
-            .city("San Jose")
-            .state(State.CA)
-            .code("95101")
-            .build() 
-    );
-    
-    txnList.add(
-      new Builder()
-            .txnId(14)
-            .salesPerson("John Smith")
-            .buyer(buyerMap.get("GreatDeals"))
-            .product("Widget")
-            .paymentType("Credit")
-            .unitPrice(20)
-            .unitCount(5000)
-            .txnDate(LocalDate.of(2013,10,10))
-            .city("San Jose")
-            .state(State.CA)
-            .code("95101")
-            .build() 
-    );
-    txnList.add(
-      new Builder()
-            .txnId(15)
-            .salesPerson("Betty Jones")
-            .buyer(buyerMap.get("RadioHut"))
-            .product("Widget Pro")
-            .paymentType("Cash")
-            .unitPrice(40)
-            .unitCount(20000)
-            .txnDate(LocalDate.of(2013,2,4))
-            .city("Denver")
-            .state(State.CO)
-            .code("80216")
-            .build() 
-    );
-    
-    txnList.add(
-      new Builder()
-            .txnId(16)
-            .salesPerson("Betty Jones")
-            .buyer(buyerMap.get("BestDeals"))
-            .product("Widget")
-            .paymentType("Cash")
-            .unitPrice(20)
-            .unitCount(25000)
-            .txnDate(LocalDate.of(2013,3,21))
-            .city("Denver")
-            .state(State.CO)
-            .code("80216")
-            .build() 
-    );
-    
-    txnList.add(
-      new Builder()
-            .txnId(17)
-            .salesPerson("Dave Smith")
-            .buyer(buyerMap.get("PriceCo"))
-            .product("Widget Pro")
-            .paymentType("Credit")
-            .unitPrice(40)
-            .unitCount(6000)
-            .txnDate(LocalDate.of(2013,3,20))
-            .city("Denver")
-            .state(State.CO)
-            .code("80216")
-            .build() 
-    );
-    
-    
-    txnList.add(
-      new Builder()
-            .txnId(18)
-            .salesPerson("Dave Smith")
-            .buyer(buyerMap.get("PriceCo"))
-            .product("Widget")
-            .paymentType("Cash")
-            .unitPrice(20)
-            .unitCount(15000)
-            .txnDate(LocalDate.of(2013,3,30))
-            .city("Denver")
-            .state(State.CO)
-            .code("80216")
-            .build() 
-    );
-    txnList.add(
-      new Builder()
-            .txnId(19)
-            .salesPerson("Betty Jones")
-            .buyer(buyerMap.get("BestDeals"))
-            .product("Widget Pro")
-            .paymentType("Credit")
-            .unitPrice(40)
-            .unitCount(20000)
-            .txnDate(LocalDate.of(2013,7,12))
-            .city("Denver")
-            .state(State.CO)
-            .code("80216")
-            .build() 
-    );
-    
-    txnList.add(
-      new Builder()
-            .txnId(20)
-            .salesPerson("John Adams")
-            .buyer(buyerMap.get("PriceCo"))
-            .product("Widget")
-            .paymentType("Cash")
-            .unitPrice(20)
-            .unitCount(14000)
-            .txnDate(LocalDate.of(2013,7,14))
-            .city("Boston")
-            .state(State.MA)
-            .code("02108")
-            .build() 
-    );
-    
-    txnList.add(
-      new Builder()
-            .txnId(21)
-            .salesPerson("John Adams")
-            .buyer(buyerMap.get("PriceCo"))
-            .product("Widget Pro")
-            .paymentType("Cash")
-            .unitPrice(40)
-            .unitCount(16000)
-            .txnDate(LocalDate.of(2013,10,6))
-            .city("Boston")
-            .state(State.MA)
-            .code("02108")
-            .build() 
-    );
-    
-    txnList.add(
-      new Builder()
-            .txnId(22)
-            .salesPerson("Samuel Adams")
-            .buyer(buyerMap.get("MomAndPops"))
-            .product("Widget")
-            .paymentType("Cash")
-            .unitPrice(20)
-            .unitCount(3000)
-            .txnDate(LocalDate.of(2013,10,2))
-            .city("Boston")
-            .state(State.MA)
-            .code("02108")
-            .build() 
-    );
-    
-    txnList.add(
-      new Builder()
-            .txnId(23)
-            .salesPerson("Samuel Adams")
-            .buyer(buyerMap.get("RadioHut"))
-            .product("Widget Pro")
-            .paymentType("Cash")
-            .unitPrice(40)
-            .unitCount(26000)
-            .txnDate(LocalDate.of(2013,12,8))
-            .city("Boston")
-            .state(State.MA)
-            .code("02108")
-            .build() 
-    );
-    
-    
-    return txnList;
-  }
-  
+        txnList.add(new Builder()
+                .txnId(11)
+                .salesPerson("Jane Doe")
+                .buyer(buyerMap.get("Acme"))
+                .product("Widgets")
+                .paymentType("Cash")
+                .unitPrice(20)
+                .unitCount(3000)
+                .txnDate(LocalDate.of(2013, 1, 25))
+                .city("San Jose")
+                .state(State.CA)
+                .code("95101")
+                .build());
+
+        txnList.add(new Builder()
+                .txnId(12)
+                .salesPerson("Jane Doe")
+                .buyer(buyerMap.get("Acme"))
+                .product("Widget Pro")
+                .paymentType("Cash")
+                .unitPrice(40)
+                .unitCount(10000)
+                .txnDate(LocalDate.of(2013, 4, 5))
+                .city("San Jose")
+                .state(State.CA)
+                .code("95101")
+                .build());
+
+        txnList.add(new Builder()
+                .txnId(13)
+                .salesPerson("Jane Doe")
+                .buyer(buyerMap.get("RadioHut"))
+                .product("Widget Pro")
+                .paymentType("Credit")
+                .unitPrice(40)
+                .unitCount(50000)
+                .txnDate(LocalDate.of(2013, 10, 3))
+                .city("San Jose")
+                .state(State.CA)
+                .code("95101")
+                .build());
+
+        txnList.add(new Builder()
+                .txnId(14)
+                .salesPerson("John Smith")
+                .buyer(buyerMap.get("GreatDeals"))
+                .product("Widget")
+                .paymentType("Credit")
+                .unitPrice(20)
+                .unitCount(5000)
+                .txnDate(LocalDate.of(2013, 10, 10))
+                .city("San Jose")
+                .state(State.CA)
+                .code("95101")
+                .build());
+
+        txnList.add(new Builder()
+                .txnId(15)
+                .salesPerson("Betty Jones")
+                .buyer(buyerMap.get("RadioHut"))
+                .product("Widget Pro")
+                .paymentType("Cash")
+                .unitPrice(40)
+                .unitCount(20000)
+                .txnDate(LocalDate.of(2013, 2, 4))
+                .city("Denver")
+                .state(State.CO)
+                .code("80216")
+                .build());
+
+        txnList.add(new Builder()
+                .txnId(16)
+                .salesPerson("Betty Jones")
+                .buyer(buyerMap.get("BestDeals"))
+                .product("Widget")
+                .paymentType("Cash")
+                .unitPrice(20)
+                .unitCount(25000)
+                .txnDate(LocalDate.of(2013, 3, 21))
+                .city("Denver")
+                .state(State.CO)
+                .code("80216")
+                .build());
+
+        txnList.add(new Builder()
+                .txnId(17)
+                .salesPerson("Dave Smith")
+                .buyer(buyerMap.get("PriceCo"))
+                .product("Widget Pro")
+                .paymentType("Credit")
+                .unitPrice(40)
+                .unitCount(6000)
+                .txnDate(LocalDate.of(2013, 3, 20))
+                .city("Denver")
+                .state(State.CO)
+                .code("80216")
+                .build());
+
+        txnList.add(new Builder()
+                .txnId(18)
+                .salesPerson("Dave Smith")
+                .buyer(buyerMap.get("PriceCo"))
+                .product("Widget")
+                .paymentType("Cash")
+                .unitPrice(20)
+                .unitCount(15000)
+                .txnDate(LocalDate.of(2013, 3, 30))
+                .city("Denver")
+                .state(State.CO)
+                .code("80216")
+                .build());
+
+        txnList.add(new Builder()
+                .txnId(19)
+                .salesPerson("Betty Jones")
+                .buyer(buyerMap.get("BestDeals"))
+                .product("Widget Pro")
+                .paymentType("Credit")
+                .unitPrice(40)
+                .unitCount(20000)
+                .txnDate(LocalDate.of(2013, 7, 12))
+                .city("Denver")
+                .state(State.CO)
+                .code("80216")
+                .build());
+
+        txnList.add(new Builder()
+                .txnId(20)
+                .salesPerson("John Adams")
+                .buyer(buyerMap.get("PriceCo"))
+                .product("Widget")
+                .paymentType("Cash")
+                .unitPrice(20)
+                .unitCount(14000)
+                .txnDate(LocalDate.of(2013, 7, 14))
+                .city("Boston")
+                .state(State.MA)
+                .code("02108")
+                .build());
+
+        txnList.add(new Builder()
+                .txnId(21)
+                .salesPerson("John Adams")
+                .buyer(buyerMap.get("PriceCo"))
+                .product("Widget Pro")
+                .paymentType("Cash")
+                .unitPrice(40)
+                .unitCount(16000)
+                .txnDate(LocalDate.of(2013, 10, 6))
+                .city("Boston")
+                .state(State.MA)
+                .code("02108")
+                .build());
+
+        txnList.add(new Builder()
+                .txnId(22)
+                .salesPerson("Samuel Adams")
+                .buyer(buyerMap.get("MomAndPops"))
+                .product("Widget")
+                .paymentType("Cash")
+                .unitPrice(20)
+                .unitCount(3000)
+                .txnDate(LocalDate.of(2013, 10, 2))
+                .city("Boston")
+                .state(State.MA)
+                .code("02108")
+                .build());
+
+        txnList.add(new Builder()
+                .txnId(23)
+                .salesPerson("Samuel Adams")
+                .buyer(buyerMap.get("RadioHut"))
+                .product("Widget Pro")
+                .paymentType("Cash")
+                .unitPrice(40)
+                .unitCount(26000)
+                .txnDate(LocalDate.of(2013, 12, 8))
+                .city("Boston")
+                .state(State.MA)
+                .code("02108")
+                .build());
+
+        return txnList;
+    }
 }
