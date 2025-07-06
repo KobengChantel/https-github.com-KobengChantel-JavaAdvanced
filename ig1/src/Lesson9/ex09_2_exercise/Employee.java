@@ -4,7 +4,10 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+// This class models employee data using the Builder pattern to flexibly create instances, with methods for displaying and retrieving employee details.
+
 public class Employee {
+  // Employee attributes
   private String givenName;
   private String surName;
   private int age;
@@ -18,17 +21,18 @@ public class Employee {
   private String address;
   private String city;
   private String state;
-  private String code;  
-  
-  public static class Builder{
-    
-    private String givenName="";
-    private String surName="";
+  private String code;
+
+  // Builder class for flexible object creation
+  public static class Builder {
+    // Builder fields with default values
+    private String givenName = "";
+    private String surName = "";
     private int age = 0;
     private Gender gender = Gender.FEMALE;
     private Role role = Role.STAFF;
     private String dept = "";
-    private LocalDate startDate =  LocalDate.of(1,1,1);
+    private LocalDate startDate = LocalDate.of(1, 1, 1);
     private double salary = 0;
     private String eMail = "";
     private String phone = "";
@@ -37,87 +41,85 @@ public class Employee {
     private String state = "";
     private String code = "";
 
-       
-    public Builder givenName(String givenName){
+    // Setter methods for builder pattern
+    public Builder givenName(String givenName) {
       this.givenName = givenName;
       return this;
     }
-    
-    public Builder surName(String surName){
+
+    public Builder surName(String surName) {
       this.surName = surName;
       return this;
     }
-    
-    public Builder age (int val){
+
+    public Builder age(int val) {
       age = val;
       return this;
     }
-    
-    public Builder gender(Gender val){
+
+    public Builder gender(Gender val) {
       gender = val;
       return this;
     }
 
-    public Builder role(Role val){
+    public Builder role(Role val) {
       role = val;
       return this;
     }
-    
-    public Builder dept(String val){
+
+    public Builder dept(String val) {
       dept = val;
       return this;
     }
-    
-    public Builder startDate(LocalDate val){
-        startDate =  val;
-        return this;
+
+    public Builder startDate(LocalDate val) {
+      startDate = val;
+      return this;
     }
-    
-    public Builder salary(double val){
-        salary = val;
-        return this;
+
+    public Builder salary(double val) {
+      salary = val;
+      return this;
     }
-        
-    public Builder email(String val){
+
+    public Builder email(String val) {
       eMail = val;
       return this;
     }
-    
-    public Builder phoneNumber(String val){
+
+    public Builder phoneNumber(String val) {
       phone = val;
       return this;
     }
-    
-    public Builder address(String val){
+
+    public Builder address(String val) {
       address = val;
       return this;
     }
 
-    public Builder city(String val){
+    public Builder city(String val) {
       city = val;
       return this;
     }
 
-    public Builder state(String val){
+    public Builder state(String val) {
       state = val;
       return this;
     }
 
-    public Builder code(String val){
+    public Builder code(String val) {
       code = val;
       return this;
     }
-    
-    public Employee build(){
+
+    // Creates an Employee instance using the Builder
+    public Employee build() {
       return new Employee(this);
     }
   }
-    
-  private Employee(){
-    super();
-  }
-    
-  private Employee(Builder builder){
+
+  // Private constructor used by Builder
+  private Employee(Builder builder) {
     givenName = builder.givenName;
     surName = builder.surName;
     age = builder.age;
@@ -132,125 +134,67 @@ public class Employee {
     city = builder.city;
     state = builder.state;
     code = builder.code;
-        
-  }
-          
-  public String getGivenName(){
-    return givenName;
-  }
-  
-  public String getSurName(){
-    return surName;
-  }
-  
-  public int getAge(){
-    return age;
-  }
-  
-  public Gender getGender(){
-    return gender;
   }
 
-  public Role getRole(){
-    return role;
-  }
+  // Getter methods
+  public String getGivenName() { return givenName; }
+  public String getSurName() { return surName; }
+  public int getAge() { return age; }
+  public Gender getGender() { return gender; }
+  public Role getRole() { return role; }
+  public String getDept() { return dept; }
+  public LocalDate getStartDate() { return startDate; }
+  public double getSalary() { return salary; }
+  public String getEmail() { return eMail; }
+  public String getPhone() { return phone; }
+  public String getAddress() { return address; }
+  public String getCity() { return city; }
+  public String getState() { return state; }
+  public String getCode() { return code; }
 
-  public String getDept(){
-    return dept;
-  }
-  
-  public LocalDate getStartDate(){
-      return startDate;
-  }
-  
-  public double getSalary(){
-      return salary;
-  }
-    
-  public String getEmail(){
-    return eMail;
-  }
-  
-  public String getPhone(){
-    return phone;
-  }
-  
-  public String getAddress(){
-    return address;
-  }
-  
-  public String getCity(){
-      return city;
-  }
-  
-  public String getState(){
-      return state;
-  }
-  
-  public String getCode(){
-      return code;
-  }
- 
+  // Returns a full string representation of the Employee
   @Override
-  public String toString(){
-    return "\nName: " + givenName + " " + surName + " -- " + 
-      "Age: " + age + " -- " +
-      "Gender: " + gender + " -- " + 
-      "Role: " + role + " -- " +
-      "Dept: " + dept + " -- " +
-      "Start date: " + startDate + " -- " + 
-      "Salary: " + salary + " -- " + 
-      "eMail: " + eMail + " -- " + 
-      "Phone: " + phone + " -- " +
-      "Address: " + address + " -- " + 
-      "City: " + city + "-- " +
-      "State: " + state + " --" +
-      "Code: " + code + " ";
+  public String toString() {
+    return "\nName: " + givenName + " " + surName + " -- " +
+            "Age: " + age + " -- " +
+            "Gender: " + gender + " -- " +
+            "Role: " + role + " -- " +
+            "Dept: " + dept + " -- " +
+            "Start date: " + startDate + " -- " +
+            "Salary: " + salary + " -- " +
+            "eMail: " + eMail + " -- " +
+            "Phone: " + phone + " -- " +
+            "Address: " + address + " -- " +
+            "City: " + city + "-- " +
+            "State: " + state + " --" +
+            "Code: " + code + " ";
   }
-  
-  public void print(){
-    System.out.println(
-      "\nName: " + givenName + " " + surName + " -- " + 
-      "Age: " + age + " -- " +
-      "Gender: " + gender + " -- " + 
-      "Role: " + role + " -- " +
-      "Dept: " + dept + " -- " +
-      "Start date: " + startDate + " -- " + 
-      "Salary: " + salary + " -- " + 
-      "eMail: " + eMail + " -- " + 
-      "Phone: " + phone + " -- " +
-      "Address: " + address + " -- " + 
-      "City: " + city + "-- " +
-      "State: " + state + " --" +
-      "Code: " + code + " "
-    );
-  } 
 
-  public String getSummary(){
-    return
-      "Name: " + givenName + " " + surName + 
-      " Role: " + role + 
-      " Dept: " + dept + 
-      " eMail: " + eMail +
-      " Salary: " + salary;
-  } 
-  
+  // Prints full Employee details to the console
+  public void print() {
+    System.out.println(this.toString());
+  }
 
-  public void printSummary(){
-    System.out.println(
-      "Name: " + givenName + " " + surName + 
-      " Role: " + role + 
-      " Dept: " + dept + 
-      " eMail: " + eMail +
-      " Salary: " + salary
-    );
-  } 
- 
-  public static List<Employee> createShortList(){
+  // Returns a short summary of Employee details
+  public String getSummary() {
+    return "Name: " + givenName + " " + surName +
+            " Role: " + role +
+            " Dept: " + dept +
+            " eMail: " + eMail +
+            " Salary: " + salary;
+  }
+
+  // Prints the short summary to the console
+  public void printSummary() {
+    System.out.println(getSummary());
+  }
+
+  // Static method to generate a predefined list of Employee objects
+  public static List<Employee> createShortList() {
     List<Employee> people = new ArrayList<>();
-    
-    people.add(
-      new Builder()
+
+    // Adding sample employees using the builder
+    people.add(new Builder()
             .givenName("Bob")
             .surName("Baker")
             .age(23)
@@ -265,11 +209,9 @@ public class Employee {
             .city("Smallville")
             .state("KS")
             .code("12333")
-            .build() 
-      );
-    
-    people.add(
-      new Builder()
+            .build());
+
+    people.add(new Builder()
             .givenName("Jane")
             .surName("Doe")
             .age(25)
@@ -284,11 +226,9 @@ public class Employee {
             .city("Smallville")
             .state("KS")
             .code("12333")
-            .build() 
-      );
-    
-    people.add(
-      new Builder()
+            .build());
+
+    people.add(new Builder()
             .givenName("John")
             .surName("Doe")
             .age(28)
@@ -303,11 +243,9 @@ public class Employee {
             .city("Smallville")
             .state("KS")
             .code("12333")
-            .build()
-    );
-    
-    people.add(
-      new Builder()
+            .build());
+
+    people.add(new Builder()
             .givenName("James")
             .surName("Johnson")
             .age(45)
@@ -322,11 +260,9 @@ public class Employee {
             .city("BrainTree")
             .state("MA")
             .code("11111")
-            .build()
-    );
+            .build());
 
-    people.add(
-      new Builder()
+    people.add(new Builder()
             .givenName("John")
             .surName("Adams")
             .age(52)
@@ -341,11 +277,9 @@ public class Employee {
             .city("Braintree")
             .state("MA")
             .code("11111")
-            .build()
-    );
-    
-    people.add(
-      new Builder()
+            .build());
+
+    people.add(new Builder()
             .givenName("Joe")
             .surName("Bailey")
             .age(62)
@@ -360,11 +294,9 @@ public class Employee {
             .city("Town")
             .state("CA")
             .code("11111")
-            .build()
-    );
-    
-    people.add(
-      new Builder()
+            .build());
+
+    people.add(new Builder()
             .givenName("Phil")
             .surName("Smith")
             .age(55)
@@ -379,11 +311,9 @@ public class Employee {
             .city("New Park")
             .state("CO")
             .code("222333")
-            .build()
-    );
-    
-    people.add(
-      new Builder()
+            .build());
+
+    people.add(new Builder()
             .givenName("Betty")
             .surName("Jones")
             .age(65)
@@ -398,11 +328,8 @@ public class Employee {
             .city("New Park")
             .state("CO")
             .code("222333")
-            .build()
-    );
-    
-    
+            .build());
+
     return people;
   }
-  
 }
