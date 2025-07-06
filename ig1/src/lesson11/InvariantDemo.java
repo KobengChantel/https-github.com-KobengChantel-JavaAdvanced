@@ -1,15 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package lesson11;
 
-/**
- *
- * @author anshenoy
- */
 import java.util.Scanner;
+
+// This program prompts the user to enter a number between 0 and 20 and uses an assertion to validate the input.
 
 public class InvariantDemo {
 
@@ -18,7 +11,10 @@ public class InvariantDemo {
 
         System.out.print("Enter a number between 0 and 20: ");
         int value = scanner.nextInt();
-        assert(value >= 0 && value <= 20) : "Invalid number: " + value;
+
+        // Assert that the entered value is within the valid range; throws AssertionError if not
+        assert (value >= 0 && value <= 20) : "Invalid number: " + value;
+
         System.out.printf("You have entered %d\n", value);
     }
 }
