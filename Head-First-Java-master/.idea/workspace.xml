@@ -5,11 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66d02bac-4e2f-45d0-a1c9-f6d5c8f87be9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Head-First-Java-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson10/TestCollectJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson10/TestCollectJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson10/TestCollectMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson10/TestCollectMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson10/TestCollectMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson10/TestCollectMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson10/TestFindFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson10/TestFindFirst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson10/TestFindFirstLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson10/TestFindFirstLazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson10/TestMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson10/TestMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson10/TestOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson10/TestOptional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson10/TestPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson10/TestPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson10/TestPeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson10/TestPeek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson10/TestSortComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson10/TestSortComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson10/TestStreamData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson10/TestStreamData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson10/TestSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson10/TestSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson9/TestConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson9/TestConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson9/TestDoubleFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson9/TestDoubleFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson9/TestFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson9/TestFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson9/TestPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson9/TestPredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson9/TestSupplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson9/TestSupplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson9/TestToDoubleFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson9/TestToDoubleFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson9/TestUnary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson9/TestUnary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson9/ex09_1_exercise/VacAccrual.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson9/ex09_1_exercise/VacAccrual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson9/ex09_2_exercise/VacAccrual.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson9/ex09_2_exercise/VacAccrual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson9/ex09_3_exercise/VacAccrual.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson9/ex09_3_exercise/VacAccrual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/Lesson9/ex09_4_exercise/VacAccrual.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/Lesson9/ex09_4_exercise/VacAccrual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/lesson11/TestMultiCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/lesson11/TestMultiCatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/lesson11/TestThrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/lesson11/TestThrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/lesson11/TestThrows.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/lesson11/TestThrows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig1/src/lesson11/TestTryCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig1/src/lesson11/TestTryCatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +53,10 @@
     &quot;accountId&quot;: &quot;56f8098a-5435-40af-8b16-50be77056d8d&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -42,7 +68,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Bootcamp/JAVA/Java_Advanced/java_work/Head-First-Java-master",
@@ -60,8 +88,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
       </set>
     </attachedChunks>
   </component>
@@ -75,6 +103,7 @@
       <updated>1749548024011</updated>
       <workItem from="1749548025201" duration="40000" />
       <workItem from="1749630072383" duration="1309000" />
+      <workItem from="1751788354886" duration="47000" />
     </task>
     <servers />
   </component>
