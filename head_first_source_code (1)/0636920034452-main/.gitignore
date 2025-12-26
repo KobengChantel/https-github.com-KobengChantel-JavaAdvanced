@@ -1,8 +1,0 @@
-/.gradle
-/build
-/out
-
-#chapter 16
-*.ser
-Foo.txt
-cards.txt
