@@ -1,6 +1,7 @@
 package Lesson2.ex02_1_exercise;
 
-// This program defines an Employee class, creates an instance, assigns values to its fields, and prints the employee's details.
+// This program defines an Employee class, creates an instance, assigns values to its fields, and prints
+// the employee's details.
 
 public class Employee {
     // Fields to store the employee's name, surname, and age
