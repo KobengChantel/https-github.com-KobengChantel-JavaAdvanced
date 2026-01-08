@@ -4,7 +4,349 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036c38c5-63b3-4f25-96ec-aad5e64a152d" name="Changes" comment="" />
+    <list default="true" id="036c38c5-63b3-4f25-96ec-aad5e64a152d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../HeadFirst/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeadFirst/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeadFirst/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeadFirst/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeadFirst/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeadFirst/headfirst.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeadFirst/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/.idea/head_first_source_code (1).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/.idea/hfj3ed.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/installing-java.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/appA/BeatBoxAlternative.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/appA/BeatBoxFinal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/appA/MusicServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/appB/AnnotationExamples.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/appB/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/appB/CustomerWithValidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/appB/HfjEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/appB/MapMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/appB/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/appB/ParallelStreams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/appB/StringImmutability.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/appB/TestMe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/appB/UsingRecords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/appB/ValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/appB/VarLVTI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/appB/Varargs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/appB/old/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch1/BottleSong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch1/DooBee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch1/Exercise1a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch1/Exercise1b.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch1/Exercise1c.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch1/FirstJavaClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch1/IfTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch1/IfTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch1/Loopy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch1/MyFirstApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch1/Party.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch1/PhraseOMatic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch1/PoolPuzzleOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch1/Shuffle1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch1/Snippets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch1/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/ConstantInit1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/ConstantInit2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/ConstantInit3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/Duck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/Foof.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/MathMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/MyMostPerfectClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/NoStatic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/PlayerTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/Poof.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/Snippets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/Song.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/StaticTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/TestBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/TestFormats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/WithStatic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/sharpen/Foo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/sharpen/Foo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/sharpen/Foo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/sharpen/Foo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/sharpen/Foo5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch10/sharpen/Foo6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/BeTheCompiler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/CollectionsFactoryMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/Jukebox1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/Jukebox10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/Jukebox2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/Jukebox3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/Jukebox4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/Jukebox5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/Jukebox6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/Jukebox7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/Jukebox8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/Jukebox9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/LambdaForEach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/MockMoreSongs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/MockSongs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/SharpenLambdas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/SongV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/SongV3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/SongV4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/SortMountains.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/SortMountainsExercise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/Sorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/TestGenerics1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/TestGenerics2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/TestGenerics3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/TestGenerics4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/TestMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/TestTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch11/TestTreeComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch12/BeTheCompiler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch12/Ch10c.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch12/CoffeeOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch12/FiveMinMystery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch12/HelloLambda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch12/JukeboxData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch12/JukeboxReports.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch12/JukeboxStreams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch12/JukeboxV3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch12/LimitWithStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch12/OptionalExamples.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch12/Song.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch12/StreamPuzzle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch12/StreamStuff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/BadException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/ClothingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/ExTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/ExceptionHierarchy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/Laundry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/LingerieException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/MiniMiniMusicApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/MiniMusicCmdLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/MusicTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/PantsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/PlayingMusic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/ShirtException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/Snippets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/TeeShirtException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/TestExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/WashingMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/sharpen/AlphaEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/sharpen/BetaEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/sharpen/DeltaEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/sharpen/GammaEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/sharpen/Risky.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch13/sharpen/Sharpen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch14/Animate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch14/CatPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch14/GradientPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch14/MiniMusicPlayer1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch14/MiniMusicPlayer2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch14/MiniMusicPlayer3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch14/MyDrawPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch14/MyGui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch14/MyOuter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch14/RandomColorPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch14/RandomGradientPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch14/SimpleAnimation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch14/SimpleGui1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch14/SimpleGui2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch14/SimpleGui3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch14/TwoButtons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch14/btc/InnerButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch15/BeatBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch15/Button1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch15/CheckboxExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch15/ListExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch15/Panel1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch15/Snippets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch15/SwingExamples.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch15/TextArea1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch15/TextFieldExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch15/ex/Fragments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch15/ex/TestLayout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/BeatBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/Chat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/Duck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/GameCharacter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/GameSaverTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/Install.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/Pond.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/QuizCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/QuizCardBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/QuizCardPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/ReadAFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/SaveWithFinally.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/SaveWithTWR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/Snippets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/WriteAFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/ex/DungeonGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch16/ex/Fragments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch17/ClosingTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch17/DailyAdviceClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch17/DailyAdviceServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch17/ExecutorsTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch17/MyRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch17/PredictableRunOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch17/RunThreads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch17/SimpleChatClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch17/SimpleChatClientA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch17/SimpleChatServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch17/ThreadPools.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch17/UnpredictableRunOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch17/magnet/PingingClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch18/ConcurrentReaders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch18/ImmutableData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch18/LostUpdate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch18/exercise1/AddLowerCaseJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch18/exercise1/AddUpperCaseJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch18/exercise1/IData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch18/exercise1/SynchronizedCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch18/exercise1/TestThreads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch18/exercise1/ThreadSafeCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch18/exercise1/TwoThreadsWriting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch18/ryanmonica/RyanAndMonicaAtomicTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch18/ryanmonica/RyanAndMonicaBankChecksTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch18/ryanmonica/RyanAndMonicaStatementTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch18/ryanmonica/RyanAndMonicaSynchronizedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch18/ryanmonica/RyanAndMonicaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch18/ryanmonica/RyanAndMonicaUnmodifiableTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch2/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch2/DogTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch2/DrumKit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch2/EchoTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch2/Episode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch2/GameLauncher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch2/GuessGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch2/MovieTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch2/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch2/StreamingSong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch3/Books.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch3/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch3/ExampleDeclarations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch3/FiveMinuteMystery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch3/HeapQuiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch3/Hobbits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch3/Sharpen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch3/TestArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch3/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch4/AddThing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch4/Clock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch4/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch4/ElectricGuitar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch4/Foo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch4/GoodDog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch4/Horse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch4/Mix4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch4/PoorDogTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch4/Puzzle4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch4/Sharpen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch4/Snippets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch4/XCopy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch5/GameHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch5/MixFor5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch5/MultiFor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch5/Output.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch5/SimpleStartupGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch5/SimpleStartupTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch5/Snippets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch6/ArrayListMagnet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch6/Egg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch6/GameHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch6/SharpenYourPencil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch6/Snippets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch6/Startup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch6/StartupBust.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch7/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch7/Boat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch7/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch7/Doctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch7/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch7/FamilyDoctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch7/Hippo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch7/Lion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch7/Mixed2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch7/MonsterTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch7/Overloads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch7/Rowboat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch7/Sailboat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch7/Surgeon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch7/TestBoats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch7/Vet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch7/Wolf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch8/AnimalTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch8/BuzzwordsReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch8/Canine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch8/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch8/Exercise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch8/MyAnimalList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch8/MyDogList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch8/Of76.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch8/Pet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch8/Report.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch8/Snippets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/Boo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/CellPhone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/ClassName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/DeRef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/Duck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/Duck2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/GC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/Hippo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/Honey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/Mini.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/Mushroom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/ReRef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/Snippets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/StackExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/StackRef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/SuperclassConstructors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/TestDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/TestHippo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/TestLifeOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/TestLifeSupportSim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/UseADuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/main/java/ch9/V2Radiator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/test/java/MixForLoops.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/test/java/appA/MidiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/test/java/appB/MapMethodsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/test/java/appB/TestMeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/test/java/ch12/JukeboxQueriesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/test/java/ch15/ConceptsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/test/java/ch15/SimpleChatServerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/test/java/ch18/COWALTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/test/java/ch18/ImmutableDataTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/test/java/ch6/GameHelperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/test/java/ch7/AnimalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/0636920034452-main/src/test/java/ch7/WolfTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../head_first_source_code (1)/dg.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ig2/src/Lesson18/SimpleJDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ig2/src/Lesson18/SimpleJDBCTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,11 +385,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.SoccerLeague.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Bootcamp/JAVA/Java_Advanced/java_work",
+    "last_opened_file_path": "C:/Bootcamp/JAVA/Java_Advanced/java_work/Soccer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,8 +417,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
       </set>
     </attachedChunks>
   </component>
@@ -88,6 +432,7 @@
       <updated>1730453487758</updated>
       <workItem from="1730453488780" duration="1910000" />
       <workItem from="1730800173274" duration="101000" />
+      <workItem from="1766277941537" duration="42000" />
     </task>
     <servers />
   </component>
