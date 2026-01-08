@@ -12,7 +12,7 @@ public class ImmutabilityTest {
         System.out.println(emp.getName() + "'s current salary R" + emp.getSalary());
 
         // Increase the salary
-        emp.raiseSalary(5000.00);
+        emp.raiseSalary(8000.00);
 
         // Display the new salary
         System.out.println(emp.getName() + "'s increased salary R" + emp.getSalary());
