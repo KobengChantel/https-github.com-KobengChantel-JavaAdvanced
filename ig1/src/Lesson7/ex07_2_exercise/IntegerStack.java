@@ -3,7 +3,8 @@ package Lesson7.ex07_2_exercise;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-// This class implements a simple integer stack using a deque, supporting push, pop, and peek operations with output demonstrating stack behavior.
+// This class implements a simple integer stack using a deque, supporting push, pop,
+// and peek operations with output demonstrating stack behavior.
 public class IntegerStack {
 
     private Deque<Integer> data = new ArrayDeque<Integer>();

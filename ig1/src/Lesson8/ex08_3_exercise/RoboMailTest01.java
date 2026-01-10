@@ -3,7 +3,8 @@ package Lesson8.ex08_3_exercise;
 import java.util.List;
 import java.util.function.Predicate;
 
-// This program uses Java streams and predicates to filter Sales employees aged 50 and above, then sends them simulated emails.
+// This program uses Java streams and predicates to filter Sales
+// employees aged 50 and above, then sends them simulated emails.
 
 public class RoboMailTest01 {
 

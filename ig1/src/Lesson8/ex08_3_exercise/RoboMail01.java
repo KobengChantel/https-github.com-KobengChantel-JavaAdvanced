@@ -1,6 +1,7 @@
 package Lesson8.ex08_3_exercise;
 
-// This class provides methods to simulate sending emails and text messages to employees by printing their contact details.
+// This class provides methods to simulate sending emails
+// and text messages to employees by printing their contact details.
 
 public class RoboMail01 {
 
