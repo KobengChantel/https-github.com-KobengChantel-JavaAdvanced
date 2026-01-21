@@ -3,10 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package chapter15.soccer.play;
+package play;
 
-import chapter15.soccer.event.GameEvent;
-import chapter15.soccer.event.Goal;
+import event.GameEvent;
+import event.Goal;
+import util.PlayerDatabase;
+import util.PlayerDatabaseException;
+import util.Settings;
 
 import java.time.LocalDateTime;
 import java.time.Period;
@@ -14,10 +17,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.StringTokenizer;
-
-import chapter15.soccer.util.PlayerDatabase;
-import chapter15.soccer.util.PlayerDatabaseException;
-import chapter15.soccer.util.Settings;
 
 /**
  * @author Administrator

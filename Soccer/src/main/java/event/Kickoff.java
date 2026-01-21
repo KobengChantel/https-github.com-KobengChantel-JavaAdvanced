@@ -4,25 +4,23 @@
  * and open the template in the editor.
  */
 
-package chapter15.soccer.event;
+package event;
 
 /**
  * @author ksomervi
  */
-public class ReceivePass extends GameEvent {
+public class Kickoff extends GameEvent {  // Really it's a special Pass
 
-    public ReceivePass() {
-
-        super();
+    public Kickoff() {
 
     }
 
     public String toString() {
-        return "Receive pass ";
+        return "Kickoff ";
     }
 
     public GameEvent[] getNextEvents() {
-        GameEvent theEvent[] = {new Dribble(), new GainPossession(), new Shoot(), new Pass()};
+        GameEvent theEvent[] = {new ReceivePass(), new GainPossession()};
         return theEvent;
     }
 
@@ -31,7 +29,13 @@ public class ReceivePass extends GameEvent {
     }
 
     public boolean changeTeam() {
-        return false;
+        return true;
+    }
+
+    // Little bit of a hack maybe as ballPos not used.
+    public void setBallPos(int ballPos) {
+        //super.setBallPos(50);
+        super.ballPos = 50;
     }
 
 }

@@ -1,6 +1,6 @@
 
 
-package chapter15.soccer.event;
+package event;
 
 
 public class Dribble extends GameEvent {

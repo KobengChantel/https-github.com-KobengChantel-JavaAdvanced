@@ -4,30 +4,30 @@
  * and open the template in the editor.
  */
 
-package chapter15.soccer.event;
+package event;
 
 /**
  * @author ksomervi
  */
-public class Pass extends GameEvent {
+public class ReceivePass extends GameEvent {
 
-    public Pass() {
+    public ReceivePass() {
 
         super();
 
     }
 
     public String toString() {
-        return "Pass attempt ";
+        return "Receive pass ";
     }
 
     public GameEvent[] getNextEvents() {
-        GameEvent theEvent[] = {new ReceivePass(), new GainPossession()};
+        GameEvent theEvent[] = {new Dribble(), new GainPossession(), new Shoot(), new Pass()};
         return theEvent;
     }
 
     public boolean changePlayer() {
-        return false;
+        return true;
     }
 
     public boolean changeTeam() {

@@ -4,23 +4,25 @@
  * and open the template in the editor.
  */
 
-package chapter15.soccer.event;
+package event;
 
 /**
- * @author Administrator
+ * @author ksomervi
  */
-public class Goal extends GameEvent {
+public class Pass extends GameEvent {
 
-    public Goal() {
+    public Pass() {
+
+        super();
 
     }
 
     public String toString() {
-        return "GOAL! ";
+        return "Pass attempt ";
     }
 
     public GameEvent[] getNextEvents() {
-        GameEvent theEvent[] = {new Kickoff()};
+        GameEvent theEvent[] = {new ReceivePass(), new GainPossession()};
         return theEvent;
     }
 
@@ -30,13 +32,6 @@ public class Goal extends GameEvent {
 
     public boolean changeTeam() {
         return false;
-    }
-
-
-    // Little bit of a hack maybe as ballPos not used.
-    public void setBallPos(int ballPos) {
-        //super.setBallPos(100);
-        super.ballPos = 100;
     }
 
 }

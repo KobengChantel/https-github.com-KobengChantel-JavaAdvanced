@@ -4,38 +4,39 @@
  * and open the template in the editor.
  */
 
-package chapter15.soccer.event;
+package event;
 
 /**
- * @author ksomervi
+ * @author Administrator
  */
-public class Kickout extends GameEvent { // Special type of Pass
+public class Goal extends GameEvent {
 
-    public Kickout() {
+    public Goal() {
 
     }
 
     public String toString() {
-        return "Saved. Kickout ";
+        return "GOAL! ";
     }
 
     public GameEvent[] getNextEvents() {
-        GameEvent theEvent[] = {new GainPossession(), new ReceivePass()};
+        GameEvent theEvent[] = {new Kickoff()};
         return theEvent;
     }
 
     public boolean changePlayer() {
-        return true;
+        return false;
     }
 
     public boolean changeTeam() {
-        return true;
+        return false;
     }
+
 
     // Little bit of a hack maybe as ballPos not used.
     public void setBallPos(int ballPos) {
-        //super.setBallPos(95); // relative to other team as team change not set yet (TODO should set teamchange first?)
-        super.ballPos = 95;
+        //super.setBallPos(100);
+        super.ballPos = 100;
     }
 
 }

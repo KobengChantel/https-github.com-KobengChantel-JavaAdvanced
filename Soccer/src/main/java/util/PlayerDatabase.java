@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
-package chapter15.soccer.util;
+package util;
 
-import chapter15.soccer.play.Player;
+import play.Player;
 
 import java.util.ArrayList;
 import java.util.StringTokenizer;

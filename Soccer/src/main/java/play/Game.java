@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package chapter15.soccer.play;
+package play;
 
 import chapter15.soccer.event.GameEvent;
 import chapter15.soccer.event.Kickoff;
