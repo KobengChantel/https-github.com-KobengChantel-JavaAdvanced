@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="036c38c5-63b3-4f25-96ec-aad5e64a152d" name="Changes" comment="starting">
-      <change afterPath="$PROJECT_DIR$/../SoccerLeague/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SoccerLeague/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SoccerLeague/src/main/java/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SoccerLeague/src/main/java/matches" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SoccerLeague/src/main/java/soccerLeague.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/play/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/play/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/play/GameResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/play/GameResult.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,33 +42,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.League.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.SoccerLeague.executor": "Run",
-    "Application.soccerLeague.soccerLeague.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Bootcamp/JAVA/Java_Advanced/java_work/Soccer/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Bootcamp/JAVA/Java_Advanced/java_work/Soccer/src/main/java/sia/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.League.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SoccerLeague.executor&quot;: &quot;Run&quot;,
+    &quot;Application.soccerLeague.soccerLeague.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Bootcamp/JAVA/Java_Advanced/java_work/Soccer/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Bootcamp/JAVA/Java_Advanced/java_work/Soccer/src/main/java/sia/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Bootcamp\JAVA\Java_Advanced\java_work\Soccer\src" />
@@ -94,7 +87,7 @@
       <recent name="event" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.soccerLeague.soccerLeague">
+  <component name="RunManager" selected="Application.League">
     <configuration name="League" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="play.League" />
       <module name="Soccer" />
@@ -137,7 +130,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.soccerLeague.soccerLeague" />
         <item itemvalue="Application.League" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.soccerLeague" />
@@ -164,6 +156,7 @@
       <workItem from="1730800173274" duration="101000" />
       <workItem from="1766277941537" duration="42000" />
       <workItem from="1769019717262" duration="825000" />
+      <workItem from="1769092292843" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="starting">
       <option name="closed" value="true" />
@@ -173,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769022673149</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="starting">
+      <option name="closed" value="true" />
+      <created>1769092272326</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1769092272326</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
