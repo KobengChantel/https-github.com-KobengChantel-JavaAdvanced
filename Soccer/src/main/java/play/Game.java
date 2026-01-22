@@ -6,9 +6,9 @@
 
 package play;
 
-import chapter15.soccer.event.GameEvent;
-import chapter15.soccer.event.Kickoff;
-import chapter15.soccer.util.Settings;
+import event.GameEvent;
+import event.Kickoff;
+import util.Settings;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
