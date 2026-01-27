@@ -9,7 +9,7 @@ public class Bank {
         BufferedReader sc = new BufferedReader(new InputStreamReader(System.in));
         String name;
         int pass_code;
-        int ch;
+        int ch
 
         while (true) {
             System.out.println("\n===============================");
