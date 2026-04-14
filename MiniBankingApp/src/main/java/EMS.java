@@ -94,13 +94,13 @@ class EMS{
     // Function to delete record at index i
     static void deleteIndex(int i)
     {
-        for (int j = i; j < num - 1; j++) {
-            emp[j].name = emp[j + 1].name;
-            emp[j].code = emp[j + 1].code;
-            emp[j].designation = emp[j + 1].designation;
-            emp[j].exp = emp[j + 1].exp;
-            emp[j].age = emp[j + 1].age;
-        }
+//        for (int j = i; j < num - 1; j++) {
+//            emp[j].name = emp[j + 1].name;
+//            emp[j].code = emp[j + 1].code;
+//            emp[j].designation = emp[j + 1].designation;
+//            emp[j].exp = emp[j + 1].exp;
+//            emp[j].age = emp[j + 1].age;
+//        }
         return;
     }
 
